@@ -1,10 +1,10 @@
 class CarthageCopyFrameworks < Formula
   include Language::Python::Virtualenv
 
-  desc "Helper to sign and bundle all frameworks built by Carthage"
+  desc "Helper to sign and bundle frameworks built by Carthage"
   homepage "https://github.com/lvillani/carthage-copy-frameworks"
-  url "https://github.com/lvillani/carthage-copy-frameworks/archive/v1.1.0.tar.gz"
-  sha256 "870415b2fe8555418c073a93617ef8a3c78c62831bc811ab086cc381f84e40c6"
+  url "https://github.com/lvillani/carthage-copy-frameworks/archive/v1.2.0.tar.gz"
+  sha256 "15835dffff329aa931209d184fd43a831a894594b80c2a52843e1f5f25fe2e7f"
   head "https://github.com/lvillani/carthage-copy-frameworks.git"
 
   def install
