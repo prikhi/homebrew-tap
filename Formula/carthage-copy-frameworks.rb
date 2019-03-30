@@ -3,9 +3,10 @@ class CarthageCopyFrameworks < Formula
 
   desc "Helper to sign and bundle frameworks built by Carthage"
   homepage "https://github.com/lvillani/carthage-copy-frameworks"
-  url "https://github.com/lvillani/carthage-copy-frameworks/archive/v1.2.0.tar.gz"
-  sha256 "15835dffff329aa931209d184fd43a831a894594b80c2a52843e1f5f25fe2e7f"
+  url "https://github.com/lvillani/carthage-copy-frameworks/archive/v2.0.0.tar.gz"
+  sha256 "4c985bbb3ca01b18d83ac9f76fbc169519a9944bb06d0a03cada4a228bbf6a08"
   head "https://github.com/lvillani/carthage-copy-frameworks.git"
+  depends_on "python@3"
 
   def install
     virtualenv_install_with_resources
