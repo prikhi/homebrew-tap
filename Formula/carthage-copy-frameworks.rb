@@ -9,6 +9,6 @@ class CarthageCopyFrameworks < Formula
   depends_on "python@3"
 
   def install
-    virtualenv_install_with_resources
+    virtualenv_install_with_resources(:using => "python@3")
   end
 end
